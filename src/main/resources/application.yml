@@ -1,0 +1,3 @@
+transaction:
+  baseUrl: https://apisandbox.openbankproject.com
+  uri: /obp/v1.2.1/banks/rbs/accounts/savings-kids-john/public/transactions
