@@ -5,8 +5,9 @@ interface MethodReference {
 }
 
 public class StaticMethodReferenceDemo {
-	static void helloMethodReference() {
+	static int helloMethodReference() {
 		System.out.println("From helloMethodReference!");
+		return 100;
 
 	}
 

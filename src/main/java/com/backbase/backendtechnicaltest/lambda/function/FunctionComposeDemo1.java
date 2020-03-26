@@ -11,6 +11,8 @@ public class FunctionComposeDemo1 {
 		System.out.println("Output - function1 : " + function1.apply("Hello"));
 
 		System.out.println("Output - Compose : " + function1.compose(function2).apply("Hello"));
+
+		System.out.println("Output - Compose : " + function2.andThen(function1).apply("Hello"));
 		//The output of the first function will become input to the second function 
 
 

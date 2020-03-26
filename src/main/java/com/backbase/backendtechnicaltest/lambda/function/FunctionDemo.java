@@ -31,7 +31,7 @@ public class FunctionDemo {
 		
 		Double inrRate = 71.0; //Call Webservice
 		 
-		Function<Integer, Double> function = usd -> usd * inrRate;
+		Function<Integer, Double> function = (usd) -> usd * inrRate;
 		System.out.println("From fromJava8 " +10 + " USD = " + function.apply(10) + " INR");
 
 		// Function<T, R>
